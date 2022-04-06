@@ -18,11 +18,12 @@
         <a href="" class="logo">
             <img src="images/LOGO.png" alt="">
         </a>
+        <div class=pageToggle onclick="togglePage();"></div>
         <nav class="navbar">
-            <a href="#Accueil">Accueil</a>
-            <a href="#A Propos">A Propos</a>
-            <a href="#Services">Services</a>
-            <a href="#Contact">Contact</a>
+            <a href="#accueil" onclick="togglePage();">Accueil</a>
+            <a href="#a propos" onclick="togglePage();">A Propos</a>
+            <a href="#services" onclick="togglePage();">Services</a>
+            <a href="#contact" onclick="togglePage();">Contact</a>
         </nav>
 
         <div id="menu-btn" class="fas fa-bars"></div>
@@ -31,14 +32,11 @@
 
     <!-- banniere section -->
     <section class="banniere" id="#banniere">
-        <div class="image">
-            <img src="images/solution.jpg" alt="">
-        </div>
 
         <div class="content">
-            <h2>Techruns</h2>
+            <h2>Techrun</h2>
             <p>une Equipe, <span>des Experts</span></p>
-            <a href="#" class="btn">Contactez Nous<span class="fas fa-chevron-right"></span></a>
+            <a href="#Contact" class="btn">Contactez Nous<span class="fas fa-chevron-right"></span></a>
         </div>
 
     </section>
@@ -51,13 +49,19 @@
            <div class="content-sec">
                 <div class="titre"><h1>A Propos de <span>nous</span></h1></div>
                 <div class="content">
-                <h3>ce que nous sommes</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                 Consequuntur dolorum eaque minus. Consequatur ratione doloremque 
-                 deleniti atque et, iste eligendi pariatur repellendus quidem nobis. 
-                 Quisquam nobis fugit ratione a accusantium.</p>
-                <a href="#" class="btn">En savoir plus</a>
+                    <h3>ce que nous sommes</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Consequuntur dolorum eaque minus. Consequatur ratione doloremque 
+                    deleniti atque et, iste eligendi pariatur repellendus quidem nobis. 
+                    Quisquam nobis fugit ratione a accusantium.</p>
+                    <a href="#" class="btn">En savoir plus</a>
                 </div> 
+                <ul class="icon-soc">
+                    <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                    <li><a href="#"></i><ion-icon name="logo-instagram"></ion-icon></a></li>
+                    <li><a href="#"></i><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                    <li><a href="#"></i><ion-icon name="logo-twitter"></ion-icon></a></li>
+                </ul>
             </div>
             <div class="image-sec">
                 <img src="images/banniere.jpg" alt="">
@@ -161,6 +165,12 @@
                             <p>techruns228@gmail.com</p>
                         </div>
                     </div>
+                    <ul class="icon-soc">
+                        <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                        <li><a href="#"></i><ion-icon name="logo-instagram"></ion-icon></a></li>
+                        <li><a href="#"></i><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                        <li><a href="#"></i><ion-icon name="logo-twitter"></ion-icon></a></li>
+                    </ul>
                 </div>
                 <div class="contactform">
                     <form action="">
@@ -190,13 +200,8 @@
     <!--End Contact Section-->
     <!--footer section-->
     <footer>
-            <h2>Suivez nous sur :</h2>
-            <ul class="icon-soc">
-                <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
-                <li><a href="#"></i><ion-icon name="logo-instagram"></ion-icon></a></li>
-                <li><a href="#"></i><ion-icon name="logo-linkedin"></ion-icon></a></li>
-                <li><a href="#"></i><ion-icon name="logo-twitter"></ion-icon></a></li>
-            </ul>
+           <!-- <h2>Suivez nous sur :</h2> --> 
+            
             <nav class="navbar">
                 <a href="#Accueil">Accueil</a>
                 <a href="#A Propos">A Propos</a>
